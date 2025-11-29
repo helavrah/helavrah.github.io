@@ -38,6 +38,7 @@ header h1 {
 header nav a {
   margin-left: 1em;
   text-decoration: none;
+  text-transform: lowercase;
   color: #222;
   font-weight: 500;
 }
@@ -56,6 +57,7 @@ footer {
 footer a {
   margin: 0 0.5em;
   text-decoration: none;
+  text-transform: lowercase;
   color: #222;
 }
 
