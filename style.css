@@ -142,6 +142,9 @@ p2 {
   .gallery {
     grid-template-columns: 1fr; /* 1 column on mobile */
   }
+  .gallery img {
+    padding-bottom: 2px;
+  }
 }
 
 /* Smooth scrolling */
