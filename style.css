@@ -97,11 +97,12 @@ footer a:hover {
   h2 {
     font-size: 26px;
   }
+}
 
+@media(max-width: 600px) {
   .gallery {
     grid-template-columns: 1fr; /* 1 column on mobile */
   }
-
 }
 
 /* Sections */
