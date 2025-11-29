@@ -125,8 +125,8 @@ p2 {
 }
 
 .gallery img {
-  width: 50%;         /* 2 images per row */
-  height: 300px;      /* fixed height for uniformity */
+  width: 48%;         /* 2 images per row */
+  /*height: px;    /*  /* fixed height for uniformity */
   /*object-fit: cover; /* /* fills frame and crops if needed */
   display: block;     /* removes inline spacing */
   margin: 0;          /* remove default margins */
