@@ -63,6 +63,8 @@ header nav a:hover {
 
 /* Footer */
 footer {
+  position: relative;       /* allows absolute positioning inside */
+  width: 100%;
   background-color: #F7F6F3;
   padding: 1em 2em;
   text-align: center;
@@ -77,6 +79,22 @@ footer a {
 
 footer a:hover {
   text-decoration: underline;
+}
+
+.footer-image {
+  position: absolute;
+  bottom: 10px;    /* adjust as needed */
+  right: 10px;     /* adjust as needed */
+  width: 60px;     /* choose size */
+  height: auto;
+}
+
+@media (max-width: 600px) {
+  .footer-img {
+    position: static;   /* removes bottom-right corner positioning */
+    display: block;
+    margin: 20px auto 0 auto;  /* centers it */
+  }
 }
 
 /* Responsive */
