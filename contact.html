@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blank</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Header will be loaded here -->
+<div id="header"></div>
+<main>
+  <h2>Welcome to My Portfolio</h2>
+  <p>Start adding your content here.</p>
+</main>
+
+<!-- Footer will be loaded here -->
+<div id="footer"></div>
+<script>
+fetch('header.html')
+  .then(response => response.text())
+  .then(data => document.getElementById('header').innerHTML = data);
+
+fetch('footer.html')
+  .then(response => response.text())
+  .then(data => document.getElementById('footer').innerHTML = data);
+</script>
+
+</body>
+</html>
