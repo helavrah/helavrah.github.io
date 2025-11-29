@@ -106,13 +106,14 @@ h2 {
   font-weight: 600;
   font-size: 28px;
   text-align: left;
-  letter-spacing: 1px;
+  letter-spacing: 1.3px;
   margin-bottom: 1em;
 }
 
 p2 {
   font-weight: 400;
   font-size: 17px;
+  letter-spacing: .5px;
   font-style: italic;
 }
 
