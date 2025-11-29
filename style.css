@@ -1,13 +1,23 @@
 /* General */
+/* Remove default body margin/padding */
 body {
   margin: 0;
+  padding: 0;
   font-family: 'Cormorant Garamond', serif;
   background-color: #F7F6F3;
   color: #222;
 }
 
-.body-container {
+/* Center content and match header width */
+main, section {
   max-width: 900px;
+  margin: 0 auto; /* centers it like the header */
+  padding: 2em 1em; /* consistent padding with header */
+}
+
+/* Optional: spacing between sections */
+section + section {
+  margin-top: 2em;
 }
 
 /* Header */
