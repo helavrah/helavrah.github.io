@@ -99,12 +99,6 @@ footer a:hover {
   }
 }
 
-@media(max-width: 600px) {
-  .gallery {
-    grid-template-columns: 1fr; /* 1 column on mobile */
-  }
-}
-
 /* Sections */
 section {
   max-width: 1000px;
@@ -129,18 +123,24 @@ p2 {
 }
 
 .gallery {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0; /* remove outer spacing */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns on desktop */
+  gap: 0; /* no gaps between images */
+  margin: 0 auto; /* center the gallery */
 }
 
 .gallery img {
-  width: 50%;         /* 2 images per row */
-  height: auto;     /* fixed height for uniformity */
-  object-fit: cover; /* fills frame and crops if needed */
-  display: block;     /* removes inline spacing */
-  margin: 0;          /* remove default margins */
-  padding: 0;         /* remove default padding */
+  width: 100%;
+  height: auto;        /* maintain aspect ratio */
+  object-fit: cover;   /* crop if needed to fill frame */
+  display: block;      /* removes inline spacing */
+}
+
+/* Responsive: 1 column on small screens */
+@media (max-width: 600px) {
+  .gallery {
+    grid-template-columns: 1fr; /* 1 column on mobile */
+  }
 }
 
 /* Smooth scrolling */
