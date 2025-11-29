@@ -11,7 +11,7 @@ body {
 
 /* Sticky Header */
 header {
-    background: #f7f6f3;
+    background: #989898;
     padding: 3em 4em;
     display: flex;
     justify-content: space-between;
@@ -24,8 +24,16 @@ header {
 
 header h1 {
     margin: 0;
-    font-size: 1.8em;
-    font-weight: 700;
+    font-family: helvetica, sans-serif;
+    font-size: 1.25em;
+    font-weight: 200;
+  letter-spacing: 1.5px;
+}
+
+header h1 a {
+  text-decoration: none;
+  color: #333;
+  
 }
 
 nav a {
