@@ -33,6 +33,7 @@ header h1 {
 header h1 a {
   text-decoration: none;
   color: #333;
+    text-transform: lowercase;
   
 }
 
@@ -73,6 +74,7 @@ footer nav a {
 
 footer nav a:hover {
     text-decoration: underline;
+    text-transform: lowercase;
 }
 
 /* Responsive Adjustments */
