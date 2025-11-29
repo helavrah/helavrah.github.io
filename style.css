@@ -12,14 +12,14 @@ body {
 /* Sticky Header */
 header {
     background: #f7f6f3;
-    padding: 1em 2em;
+    padding: 3em 4em;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: sticky;
     top: 0;
     z-index: 1000;
-    border-bottom: 1px solid rgba(0,0,0,0);
+    border-bottom: 0px solid rgba(0,0,0,0);
 }
 
 header h1 {
