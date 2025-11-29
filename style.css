@@ -84,22 +84,20 @@ footer a:hover {
 .footer-content {
   max-width: 1000px;
   margin: 0 auto;
-  position: relative;  /* allows absolute positioning */
+  padding: 0 20px;
 }
 
 .footer-img {
-  width: 120px;
-  position: absolute;
-  bottom: 0;
-  right: 0;
+  display: block;
+  margin: 15px auto 0 auto; /* centers horizontally */
+  max-width: 120px;         /* prevent it from being too large */
+  height: auto;
 }
 
 /* --- MOBILE RESPONSIVE STYLE --- */
 @media (max-width: 600px) {
   .footer-img {
-    position: static;   /* removes bottom-right corner positioning */
-    display: block;
-    margin: 20px auto 0 auto;  /* centers it */
+    max-width: 90px;
   }
 }
 
