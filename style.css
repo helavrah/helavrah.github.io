@@ -118,6 +118,9 @@ p2 {
   font-style: italic;
 }
 
+img {
+}
+
 /* Smooth scrolling */
 html {
   scroll-behavior: smooth;
