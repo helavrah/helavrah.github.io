@@ -27,7 +27,8 @@ header {
 
 header h1 {
   margin: 0;
-  font-weight: 700;
+  font-family: helvetica, sans-serif;
+  font-weight: 300;
 }
 
 header nav a {
