@@ -18,6 +18,7 @@ main, section {
 /* Optional: spacing between sections */
 section + section {
   margin-top: 2em;
+  padding-bottom: 1em;
 }
 
 /* Header */
