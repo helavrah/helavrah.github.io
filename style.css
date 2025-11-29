@@ -6,6 +6,10 @@ body {
   color: #222;
 }
 
+.body-container {
+  max-width: 900px;
+}
+
 /* Header */
 header {
   position: sticky;
