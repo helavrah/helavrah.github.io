@@ -109,6 +109,12 @@ h2 {
   margin-bottom: 1em;
 }
 
+p2 {
+  font-weight: 400;
+  font-size: 17px;
+  font-style: italic;
+}
+
 /* Smooth scrolling */
 html {
   scroll-behavior: smooth;
