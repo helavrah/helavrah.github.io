@@ -81,13 +81,20 @@ footer a:hover {
   text-decoration: underline;
 }
 
-.footer-img {
-  position: absolute;
-  bottom: 10px;    /* adjust as needed */
-  right: 10px;     /* adjust as needed */
-  width: 60px !important;     /* choose size */
+.footer-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative;  /* allows absolute positioning */
 }
 
+.footer-img {
+  width: 120px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* --- MOBILE RESPONSIVE STYLE --- */
 @media (max-width: 600px) {
   .footer-img {
     position: static;   /* removes bottom-right corner positioning */
