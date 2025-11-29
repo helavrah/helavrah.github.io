@@ -28,8 +28,12 @@ header {
 header h1 {
   margin: 0;
   font-family: helvetica, sans-serif;
+  font-size: 17px;
+  letter-spacing: 1px;
+  text-transform: lowercase;
   font-weight: 300;
 }
+
 
 header nav a {
   margin-left: 1em;
