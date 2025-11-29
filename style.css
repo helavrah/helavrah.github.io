@@ -124,16 +124,17 @@ p2 {
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 columns on desktop */
-  gap: 0; /* no gaps between images */
-  margin: 0 auto; /* center the gallery */
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  gap: 0; /* no gaps */
+  width: 100%;
 }
 
 .gallery img {
   width: 100%;
-  height: auto;        /* maintain aspect ratio */
-  object-fit: cover;   /* crop if needed to fill frame */
-  display: block;      /* removes inline spacing */
+  height: 0;
+  padding-bottom: 100%;  /* makes a square aspect ratio */
+  object-fit: cover;      /* crop to fill the square */
+  display: block;
 }
 
 /* Responsive: 1 column on small screens */
