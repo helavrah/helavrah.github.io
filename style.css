@@ -124,16 +124,16 @@ p2 {
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 columns */
-  gap: 0; /* no gaps */
-  width: 100%;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns on desktop */
+  gap: 0; /* no gaps between images */
+  margin: 0 auto; /* center the gallery */
 }
 
 .gallery img {
   width: 100%;
-  height: 0;
-  object-fit: cover;      /* crop to fill the square */
-  display: block;
+  height: auto;        /* maintain aspect ratio */
+  object-fit: cover;   /* crop if needed to fill frame */
+  display: block;      /* removes inline spacing */
 }
 
 /* Responsive: 1 column on small screens */
@@ -142,6 +142,7 @@ p2 {
     grid-template-columns: 1fr; /* 1 column on mobile */
   }
 }
+
 
 /* Smooth scrolling */
 html {
