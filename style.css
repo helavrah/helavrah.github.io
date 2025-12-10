@@ -115,13 +115,17 @@ footer a:hover {
     margin-left: 0;
     margin-right: 1em;
   }
-
-
+  
    .footer-content {
     text-align: center !important;
     display: block !important;   /* prevents weird flex behavior */
     margin: 0 auto !important;
   }
+
+  footer a {
+  display: inline-block;
+  margin: 0.3em 0.5em;
+}
 }
 
 @media (max-width: 600px) {
