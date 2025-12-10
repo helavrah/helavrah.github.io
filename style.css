@@ -2,7 +2,7 @@
 /* Remove default body margin/padding */
 
 html, body {
-  overflow-x: hidden;
+ /* overflow-x: hidden; */
   width: 100%;
 }
 
