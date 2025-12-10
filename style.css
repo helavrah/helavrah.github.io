@@ -111,7 +111,7 @@ footer a:hover {
   .footer-content {
     max-width: 100%;
     margin: 0 auto !important;
-    padding: 0 10px;  /* smaller internal padding */
+    padding: 0 0px;  /* smaller internal padding */
     text-align: center !important;
   }
 
