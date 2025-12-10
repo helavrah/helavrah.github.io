@@ -72,7 +72,7 @@ footer {
   position: relative;     /* allows absolute positioning inside */
   width: 100%;
   background-color: #F7F6F3;
-  padding: 1em 2em;
+  padding: 1em 1em;
   text-align: center;
   outline: 1px solid red;
 }
@@ -93,7 +93,7 @@ footer a:hover {
 .footer-content {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 0px;
 }
 
 .footer-img {
