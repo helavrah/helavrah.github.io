@@ -63,7 +63,7 @@ header nav a:hover {
 
 /* Footer */
 footer {
-  position: relative;       /* allows absolute positioning inside */
+  /* position: relative;   */    /* allows absolute positioning inside */
   width: 100%;
   background-color: #F7F6F3;
   padding: 1em 2em;
