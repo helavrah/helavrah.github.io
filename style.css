@@ -102,8 +102,27 @@ footer a:hover {
 
 /* --- MOBILE RESPONSIVE STYLE --- */
 @media (max-width: 600px) {
+
+  footer {
+    padding: 1em 1em;  /* reduce side padding */
+    text-align: center;
+  }
+
+  .footer-content {
+    max-width: 100%;
+    margin: 0 auto !important;
+    padding: 0 10px;  /* smaller internal padding */
+    text-align: center !important;
+  }
+
+  footer a {
+    display: inline-block;
+    margin: 0.3em 0.5em;
+  }
+
   .footer-img {
     max-width: 90px;
+    margin: 15px auto 0 auto;
   }
 }
 
@@ -121,17 +140,6 @@ footer a:hover {
     margin-left: 0;
     margin-right: 1em;
   }
-  
-   .footer-content {
-    text-align: center !important;
-    display: block !important;   /* prevents weird flex behavior */
-    margin: 0 auto !important;
-  }
-
-  footer a {
-  display: inline-block;
-  margin: 0.3em 0.5em;
-}
 }
 
 @media (max-width: 600px) {
