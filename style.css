@@ -88,7 +88,7 @@ footer a:hover {
 }
 
 .footer-content {
-  max-width: 100%;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 0 0px;
 }
@@ -104,7 +104,7 @@ footer a:hover {
 @media (max-width: 600px) {
 
   footer {
-    padding: 1em 1em;  /* reduce side padding */
+    padding: 0em 0em;  /* reduce side padding */
     text-align: center;
   }
 
@@ -117,7 +117,7 @@ footer a:hover {
 
   footer a {
     display: inline-block;
-    margin: 0.3em 0.3em;
+   /* margin: 0.3em 0.3em; */
   }
 
   .footer-img {
